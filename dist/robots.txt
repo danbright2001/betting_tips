@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap:  https://betting-tips.onrender.com/
