@@ -38,14 +38,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 // Get the form element
-const form = document.querySelector('form');
+const form = document.getElementById('formElement');
 
 // Add event listener for form submission
-form.addEventListener('submit', function(event) {
+formElement.addEventListener('submit', function(event) {
   // Prevent the default form submission behavior (page reload)
   event.preventDefault();
 
   // Reset the form after submission (this clears all fields)
-  form.reset();
+  formElement.reset();
 });
 
