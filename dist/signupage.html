@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/5a5ffd6d29.js" crossorigin="anonymous"></script>
+  <title>Kenya Fixed VVIP matches</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <my-nav></my-nav>
+  <div class="max-w-3xl mx-auto text-center p-5">
+    <h1 class="text-3xl font-bold text-green-600">Win Guaranteed – 100% Sure Odds, No Losing!</h1>
+    <p class="mt-3 text-gray-700">At <strong>Your Website Name</strong>, we provide expert betting tips with <strong>100% sure odds</strong>. No losses, just consistent wins. Choose your plan and start winning today!</p>
+  </div>
+
+  <div class="w-full max-w-3xl mx-auto  bg-white p-6 my-5 rounded-lg shadow-md">
+        <h2 class="text-2xl font-bold text-center text-gray-800 mb-4">Choose Your Subscription Plan</h2>
+
+        <div class="overflow-x-auto">
+            <table class="w-full border-collapse border border-gray-300">
+                <thead>
+                    <tr class="bg-gray-200">
+                        <th class="border border-gray-300 p-3 text-left text-gray-700">Plan</th>
+                        <th class="border border-gray-300 p-3 text-left text-gray-700">Duration</th>
+                        <th class="border border-gray-300 p-3 text-left text-gray-700">Price (Ksh)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-white">
+                        <td class="border border-gray-300 p-3">Weekly</td>
+                        <td class="border border-gray-300 p-3">7 Days</td>
+                        <td class="border border-gray-300 p-3 font-bold">Ksh 300 – 700</td>
+                    </tr>
+                    <tr class="bg-gray-100">
+                        <td class="border border-gray-300 p-3">Bi-Weekly</td>
+                        <td class="border border-gray-300 p-3">14 Days</td>
+                        <td class="border border-gray-300 p-3 font-bold">Ksh 600 – 1,300</td>
+                    </tr>
+                    <tr class="bg-white">
+                        <td class="border border-gray-300 p-3">Monthly</td>
+                        <td class="border border-gray-300 p-3">30 Days</td>
+                        <td class="border border-gray-300 p-3 font-bold">Ksh 1,200 – 2,500</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Discounts and Trial Offer -->
+        <div class="mt-6 text-center">
+            <p class="text-lg font-semibold text-gray-800">🔥 Special Offers 🔥</p>
+            <ul class="mt-2 text-gray-700">
+                <li class="bg-green-100 p-2 rounded-lg text-sm font-medium">
+                    ✅ <span class="font-bold">Monthly Plan Discount:</span> Pay for 1 month, get 1 extra week free!
+                </li>
+                <li class="bg-blue-100 p-2 rounded-lg mt-2 text-sm font-medium">
+                    ⭐ <span class="font-bold">Trial Offer:</span> Get a **1-day trial** for just <span class="text-green-600 font-bold">Ksh 100</span>.
+                </li>
+            </ul>
+        </div>
+
+  </div>
+
+
+  <h2 class="text-2xl font-semibold text-center text-gray-800 mb-4">Select Your Plan Below</h2>
+<p class="text-lg text-gray-500 text-center mb-4">Pay to the number displayed below, then enter your MPesa code to verify and gain access.</p>
+<p class="text-lg font-semibold text-center text-blue-600 mb-4 p-5">MPesa Pochi La Biashara: <span class="font-bold text-red-600">0713117049</span></p>
+<p class="text-xl font-bold text-center text-green-600">Winning is 100% Guaranteed!</p>
+
+
+
+  
+
+
+     <div class="w-full max-w-md bg-white p-6 rounded-lg shadow-md mx-auto my-5">
+        <h2 class="text-2xl font-bold text-center text-gray-800 mb-4">Pochi la Biashara Payment</h2>
+        
+        <p class="text-center text-gray-600">Send payment to: <strong class="text-lg">0713117049</strong></p>
+
+        <form id="paymentForm" class="space-y-4 mt-4">
+            <label class="block text-gray-700 font-medium">Select Plan:</label>
+            <select id="plan" class="w-full p-2 border border-gray-300 rounded">
+                <option value="300">Weekly - Ksh 300</option>
+                <option value="600">Bi-Weekly - Ksh 600</option>
+                <option value="1200">Monthly - Ksh 1,200</option>
+                <option value="100">Trial - Ksh 100</option>
+            </select>
+
+            <label class="block text-gray-700 font-medium">Enter Transaction Code:</label>
+            <input type="text" id="mpesaCode" placeholder="Example: QL56YH89WP" class="w-full p-2 border border-gray-300 rounded" required>
+
+            <button type="submit" class="w-full bg-green-500 text-white py-2 rounded-lg font-bold">Verify Payment</button>
+        </form>
+
+        <p id="statusMessage" class="mt-4 text-center text-gray-600"></p>
+    </div>
+
+  <my-footer></my-footer>
+  <script src="loaded.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
